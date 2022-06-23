@@ -1,0 +1,50 @@
+{
+  "name": "@ambergg/passport-faceit",
+  "version": "1.0.0",
+  "description": "FACEIT (OAuth2) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "faceit",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth",
+    "oauth2",
+    "strategy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amber-gg/passport-faceit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amber-gg/passport-faceit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "passport-oauth2": "^1.6.1",
+    "pkginfo": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/amber-gg/passport-faceit",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amber.gg",
+  "license": "MIT"
+}
