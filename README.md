@@ -29,7 +29,7 @@ import passport from "passport";
 import jwt from "jsonwebtoken";
 import faceitStrategy from "@amber/passport-faceit";
 
-/* Scopes supported: email, membership, openid, profile */
+/* Supported scopes: email, membership, openid, profile */
 const scopes = "openid, email, profile";
 
 passport.use(new faceitStrategy({
