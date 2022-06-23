@@ -29,7 +29,8 @@ import passport from "passport";
 import jwt from "jsonwebtoken";
 import faceitStrategy from "@amber/passport-faceit";
 
-const scopes = ["openid", "email", "profile"];
+/* Scopes supported: email, membership, openid, profile */
+const scopes = "openid, email, profile";
 
 passport.use(new faceitStrategy({
     authorizationURL: FACEIT_AUTHORIZATION_ENDPOINT,
@@ -38,6 +39,7 @@ passport.use(new faceitStrategy({
     clientID: FACEIT_CLIENT_ID,
     clientSecret: FACEIT_CLIENT_SECRET,
     scope: scopes,
+    scopeSepartor: ',',
     customHeaders: {
       "Authorization": "Basic ${Buffer.from(
         faceitConfig.oauthClientId + ":" + faceitConfig.oauthClientSecret
