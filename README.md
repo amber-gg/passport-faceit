@@ -29,12 +29,15 @@ import passport from "passport";
 import jwt from "jsonwebtoken";
 import faceitStrategy from "@amber/passport-faceit";
 
+const scopes = ["openid", "email", "profile"];
+
 passport.use(new faceitStrategy({
     authorizationURL: FACEIT_AUTHORIZATION_ENDPOINT,
     tokenURL: FACEIT_TOKEN_ENDPOINT,
     callbackURL: YOUR_CALLBACK_URL,
     clientID: FACEIT_CLIENT_ID,
     clientSecret: FACEIT_CLIENT_SECRET,
+    scope: scopes,
     customHeaders: {
       "Authorization": "Basic ${Buffer.from(
         faceitConfig.oauthClientId + ":" + faceitConfig.oauthClientSecret
