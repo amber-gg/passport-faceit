@@ -13,7 +13,6 @@
     "oauth2",
     "strategy"
   ],
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/amber-gg/passport-faceit.git"
