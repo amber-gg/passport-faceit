@@ -54,8 +54,8 @@ passport.use(new faceitStrategy({
 ```
 
 ## Faceit Documentation
-[FACEIT Connect (OAuth2)](https://cdn.faceit.com/third_party/docs/FACEIT_Connect_3.0.pdf)
-[OpenID Configuration](https://api.faceit.com/auth/v1/openid_configuration)
+- [FACEIT Connect (OAuth2)](https://cdn.faceit.com/third_party/docs/FACEIT_Connect_3.0.pdf)
+- [OpenID Configuration](https://api.faceit.com/auth/v1/openid_configuration)
 
 ## License
 
