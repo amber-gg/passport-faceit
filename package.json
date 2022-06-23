@@ -1,6 +1,6 @@
 {
   "name": "@ambergg/passport-faceit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "FACEIT (OAuth2) authentication strategies for Passport.",
   "keywords": [
     "passport",
@@ -30,8 +30,7 @@
   "main": "./lib",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
-    "passport-oauth2": "^1.6.1",
-    "pkginfo": "^0.4.1"
+    "passport-oauth2": "^1.6.1"
   },
   "engines": {
     "node": ">=0.10.0"
