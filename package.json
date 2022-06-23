@@ -1,6 +1,6 @@
 {
   "name": "@ambergg/passport-faceit",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "FACEIT (OAuth2) authentication strategies for Passport.",
   "keywords": [
     "passport",
@@ -13,6 +13,7 @@
     "oauth2",
     "strategy"
   ],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/amber-gg/passport-faceit.git"
