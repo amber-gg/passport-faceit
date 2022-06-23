@@ -1,6 +1,6 @@
 {
   "name": "@ambergg/passport-faceit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "FACEIT (OAuth2) authentication strategies for Passport.",
   "keywords": [
     "passport",
