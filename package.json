@@ -6,11 +6,10 @@
     "passport",
     "faceit",
     "auth",
-    "authn",
-    "authentication",
-    "identity",
     "oauth",
     "oauth2",
+    "authentication",
+    "identity",
     "strategy"
   ],
   "repository": {
